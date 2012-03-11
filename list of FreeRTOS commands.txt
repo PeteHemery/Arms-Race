@@ -1,0 +1,56 @@
+--------
+Task API
+--------
+xTaskCallApplicationHook
+xTaskCreate
+vTaskDelay
+vTaskDelayUntil
+vTaskDelete
+taskDISABLE_INTERRUPTS
+taskENABLE_INTERRUPTS
+vTaskEndScheduler
+ulTaskEndTrace
+taskENTER_CRITICAL
+taskEXIT_CRITICAL
+xTaskGetCurrentTaskHandle
+uxTaskGetNumberOfTasks
+xTaskGetSchedulerState
+uxTaskGetHighWaterMark
+vTaskGetRunTimeStats
+xTaskGetTickCount
+vTaskList
+uxTaskPriorityGet
+vTaskPrioritySet
+vTaskResume
+xTaskResumeAll
+xTaskResumeFromISR
+vTaskSetApplicationTag
+vTaskStartScheduler
+vTaskSuspend
+vTaskSuspendAll
+taskYEILD
+--------
+Queue API
+--------
+vQueueAddToRegistry
+xQueueCreate
+vQueueDelete
+uxQueueMessageWaiting
+uxQueueMessageWaitingFromISR
+xQueuePeek
+xQueueReceive
+xQueueFromISR
+xQueueSend, xQueueSendToFront, xQueueSendToBack
+xQueueSendFromISR, xQueueSendToFrontFromISR, xQueueSendToBackFromISR
+--------
+Semaphore API
+--------
+vSemaphoreCreateBinary
+xSemaphoreCreateCounting
+xSemaphoreCreateMutex
+xSemaphoreCreateRecursiveMutex
+xSemaphoreGive
+xSemaphoreGiveFromISR
+xSemaphoreGiveRecursive
+xSemaphoreTake
+xSemaphoreTakeRecursive

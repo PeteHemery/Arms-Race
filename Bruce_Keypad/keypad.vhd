@@ -6,7 +6,7 @@ entity keypad is
   port	  
 	   (reset,sys_clk,new_data_ack 									: in std_logic;
       new_data													 			: out std_logic;
-			debounce_reset													: inout std_logic;
+--			debounce_reset													: inout std_logic;
    		keypad_row  													: in std_logic_vector(3 downto 0);
 			keypad_col														: out std_logic_vector(3 downto 0);
 			output_register												: out std_logic_vector(7 downto 0));
